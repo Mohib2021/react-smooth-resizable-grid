@@ -69,7 +69,7 @@ describe("ResizableGrids", () => {
     expect(onResize).toHaveBeenCalledTimes(1);
 
     const updated = onResize.mock.calls[0][0];
-    console.log(updated, "updated");
+
     expect(updated[0].layout_size).toBeGreaterThan(2);
   });
 

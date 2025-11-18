@@ -17,7 +17,7 @@ describe("ResizableGrid", () => {
         showPercentageChip={true}
       />
     );
-    console.log(container.innerHTML);
+
     const grid = container.querySelector(".rcrg-grid") as HTMLElement;
     expect(grid.style.gridColumn).toBe("span 1");
     expect(getByText("25")).toBeInTheDocument();
