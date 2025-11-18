@@ -1,0 +1,58 @@
+.rcrg-container {
+  display: grid;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  margin: 0.8rem 0;
+  padding: 20px;
+}
+.rcrg-grid {
+  position: relative !important;
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow: visible;
+  user-select: none;
+  text-align: center;
+  width: 100%;
+  border: 1px solid #cfcfcf;
+}
+.rcrg-overlay {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transition: width 100ms linear;
+  background: rgba(0, 140, 255, 0.06);
+  border: 2.5px dashed rgba(0, 140, 255, 0.2);
+  z-index: 5;
+  pointer-events: none;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 5px;
+}
+.rcrg-grid-resize-handle {
+  position: absolute !important;
+  top: 0;
+  right: 0;
+  width: 10px;
+  height: 100%;
+  cursor: col-resize;
+  z-index: 20;
+}
+
+.rcrg-percentage {
+  background-color: #2196f3;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  color: white;
+  border-radius: 50%;
+  padding: 5px;
+  font-size: 10px;
+  width: 13px;
+  height: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
