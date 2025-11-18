@@ -1,6 +1,6 @@
 {
   "name": "react-smooth-resizable-grid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
@@ -10,7 +10,17 @@
     "test:ui": "vitest --ui",
     "test:coverage": "vitest --coverage"
   },
-  "keywords": [],
+  "keywords": [
+    "react grid",
+    "resizable grid",
+    "react drag resize",
+    "smooth grid animation",
+    "dashboard layout",
+    "grid layout manager",
+    "react resizable component",
+    "drag resize component",
+    "react-smooth-resizable-grid"
+  ],
   "author": "Sheikh Mohib",
   "license": "ISC",
   "description": "A smooth and customizable resizable grid layout component for React & Next.js",

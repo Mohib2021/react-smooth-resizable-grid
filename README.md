@@ -127,15 +127,3 @@ Example of returned object:
 It is customizable, developer-friendly, and works seamlessly with any React project.
 
 If you enjoy this package, consider ⭐ starring the project on GitHub!
-
-## 🔍 Keywords
-
-`react grid`,  
-`resizable grid`,  
-`react drag resize`,  
-`smooth grid animation`,  
-`dashboard layout`,  
-`grid layout manager`,  
-`react resizable component`,  
-`drag resize component`,  
-`react-smooth-resizable-grid`
