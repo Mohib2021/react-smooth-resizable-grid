@@ -29,16 +29,21 @@ You can fully customize the internal UI by passing your own React component — 
 ## 📦 Installation
 
 ```bash
+# npm
 npm install react-smooth-resizable-grid
-# or
+
+# yarn
 yarn add react-smooth-resizable-grid
+
+# pnpm
+pnpm add react-smooth-resizable-grid
 ```
 
 ## 📘 Usage Example
 
 Below is a complete working example that you can copy & paste directly into your React application:
 
-```
+```tsx
 import { useState } from "react";
 import { ResizableGrids } from "react-smooth-resizable-grid";
 
@@ -106,7 +111,7 @@ When the user resizes an item:
 
 Example of returned object:
 
-```
+```js
 {
   "id": 1,
   "title": "Email",
