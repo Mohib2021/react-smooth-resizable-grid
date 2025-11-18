@@ -12,7 +12,10 @@ export default defineConfig({
   },
   external: ["react", "react-dom"],
   plugins: [
-    typescript({ tsconfig: "./tsconfig.json" }),
+    typescript({
+      tsconfig: "./tsconfig.json",
+      exclude: ["**/__tests__/**", "**/*.test.ts", "**/*.test.tsx"],
+    }),
     postcss({
       extract: false, // ✅ generates a separate .css file
       minimize: true,
